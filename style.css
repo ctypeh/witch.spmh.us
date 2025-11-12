@@ -1,151 +1,158 @@
 @font-face {
-  font-family: 'Cooper Initials';
-  src: url('CooperInitials-Medium.eot');
-  src: url('CooperInitials-Medium.eot?#iefix') format('embedded-opentype'),
-	  url('CooperInitials-Medium.woff2') format('woff2'),
-	  url('CooperInitials-Medium.woff') format('woff'),
-	  url('CooperInitials-Medium.ttf') format('truetype');
+  font-family: "Cooper Initials";
+  src: url("CooperInitials-Medium.eot");
+  src: url("CooperInitials-Medium.eot?#iefix") format("embedded-opentype"),
+    url("CooperInitials-Medium.woff2") format("woff2"),
+    url("CooperInitials-Medium.woff") format("woff"),
+    url("CooperInitials-Medium.ttf") format("truetype");
   font-weight: 500;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Cooper Ground';
-  src: url('CooperGround-Medium.eot');
-  src: url('CooperGround-Medium.eot?#iefix') format('embedded-opentype'),
-	  url('CooperGround-Medium.woff2') format('woff2'),
-	  url('CooperGround-Medium.woff') format('woff'),
-	  url('CooperGround-Medium.ttf') format('truetype');
+  font-family: "Cooper Ground";
+  src: url("CooperGround-Medium.eot");
+  src: url("CooperGround-Medium.eot?#iefix") format("embedded-opentype"),
+    url("CooperGround-Medium.woff2") format("woff2"),
+    url("CooperGround-Medium.woff") format("woff"),
+    url("CooperGround-Medium.ttf") format("truetype");
   font-weight: 500;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Cooper Capitals';
-  src: url('CooperCapitals-Medium.eot');
-  src: url('CooperCapitals-Medium.eot?#iefix') format('embedded-opentype'),
-	  url('CooperCapitals-Medium.woff2') format('woff2'),
-	  url('CooperCapitals-Medium.woff') format('woff'),
-	  url('CooperCapitals-Medium.ttf') format('truetype');
+  font-family: "Cooper Capitals";
+  src: url("CooperCapitals-Medium.eot");
+  src: url("CooperCapitals-Medium.eot?#iefix") format("embedded-opentype"),
+    url("CooperCapitals-Medium.woff2") format("woff2"),
+    url("CooperCapitals-Medium.woff") format("woff"),
+    url("CooperCapitals-Medium.ttf") format("truetype");
   font-weight: 500;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Cooper Old Style';
-  src: url('CooperOldStyle-Medium.eot');
-  src: url('CooperOldStyle-Medium.eot?#iefix') format('embedded-opentype'),
-	  url('CooperOldStyle-Medium.woff2') format('woff2'),
-	  url('CooperOldStyle-Medium.woff') format('woff'),
-	  url('CooperOldStyle-Medium.ttf') format('truetype');
+  font-family: "Cooper Old Style";
+  src: url("CooperOldStyle-Medium.eot");
+  src: url("CooperOldStyle-Medium.eot?#iefix") format("embedded-opentype"),
+    url("CooperOldStyle-Medium.woff2") format("woff2"),
+    url("CooperOldStyle-Medium.woff") format("woff"),
+    url("CooperOldStyle-Medium.ttf") format("truetype");
   font-weight: 500;
   font-style: normal;
 }
 
-html { font-family: 'Cooper Old Style', sans-serif; }
+html {
+  font-family: "Cooper Old Style", sans-serif;
+}
 
 body {
-	max-width: 40em;
-	margin: 3em 3em 0em 3em;
-	padding-left: 1em;
-	color: #DCD8D0;
-	background: #202927;
-	border-left: 0.5em solid #2F2329;
-	font-family: 'Cooper Old Style', 'Cooper', 'Cooper Black', serif;
-	font-size: 18px;
+  max-width: 40em;
+  margin: 3em 3em 0em 3em;
+  padding-left: 1em;
+  color: #dcd8d0;
+  background: #202927;
+  border-left: 0.5em solid #2f2329;
+  font-family: "Cooper Old Style", "Cooper", "Cooper Black", serif;
+  font-size: 18px;
 }
 
 h1 {
-	color: #969B5B;
-	border-bottom: 0.1em solid #D6C363;
-	font-size: 5em;
-	line-height: .77em;
-	position: relative;
-	font-family: 'Cooper Ground';
+  color: #969b5b;
+  border-bottom: 0.1em solid #d6c363;
+  font-size: 5em;
+  line-height: 0.77em;
+  position: relative;
+  font-family: "Cooper Ground";
 }
 h1::before {
-	color: #4E6B69;
-	position: absolute;
-	top: 0;
-	left: 0;
-	font-family: 'Cooper Initials';
+  color: #4e6b69;
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: "Cooper Initials";
 }
 h1::after {
-	color: #DCD8D0;
-	position: absolute;
-	top: 0;
-	left: 0;
-	font-family: 'Cooper Capitals';
+  color: #dcd8d0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: "Cooper Capitals";
 }
 
 h2 {
-	font-family: 'Cooper Old Style';
-	color: #F9CF55;
-	text-decoration: underline;
-	text-decoration-style: wavy;
-	text-decoration-color: #c63e00;
+  font-family: "Cooper Old Style";
+  color: #f9cf55;
+  text-decoration: underline;
+  text-decoration-style: wavy;
+  text-decoration-color: #c63e00;
 }
 h3 {
-	color: #E28739;
-	font-size: 1.5em;
-	border-bottom: 0.1em solid #F8D2B0;
+  color: #e28739;
+  font-size: 1.5em;
+  border-bottom: 0.1em solid #f8d2b0;
 }
 h3::first-letter {
-	color: #F9B245;
+  color: #f9b245;
 }
-h4, h5, h6 {
-	color: #E9BABE;
-	margin-bottom: 0;
-	margin-top: 0;
+h4,
+h5,
+h6 {
+  color: #e9babe;
+  margin-bottom: 0;
+  margin-top: 0;
 }
 hr {
-	/* some browsers use 'color' for styling horizontal rules.
+  /* some browsers use 'color' for styling horizontal rules.
 	   meanwhile, others use 'background', because fuck you. */
-	color: #F9CF55;
-	background: #F9CF55;
-	border-color: #F9CF55;
-	border-block-color: #F9CF55;
-	border-style:  solid;
-	margin-bottom: 1em;
-	margin-left: 2em;
+  color: #f9cf55;
+  background: #f9cf55;
+  border-color: #f9cf55;
+  border-block-color: #f9cf55;
+  border-style: solid;
+  margin-bottom: 1em;
+  margin-left: 2em;
 }
 hr:last-of-type {
-	color: #5E1D02;
-	background: #5E1D02;
-	border-color: #5E1D02;
-	border-block-color: #5E1D02;
+  color: #5e1d02;
+  background: #5e1d02;
+  border-color: #5e1d02;
+  border-block-color: #5e1d02;
 }
 a {
-	color: #9DD9D2;
-	text-decoration-color: #45512A;
-	text-decoration-style: wavy;
-	line-height: 1.2em;
+  color: #9dd9d2;
+  text-decoration-color: #45512a;
+  text-decoration-style: wavy;
+  line-height: 1.2em;
 }
 li a {
-	color: #F4D5BD;
+  color: #f4d5bd;
 }
 a :visited {
-	color: #c63e00;
+  color: #c63e00;
 }
 li::marker {
-	color: #97450C;
+  color: #97450c;
 }
 p {
-	color: #EEE7C0;
+  color: #eee7c0;
 }
-p, ul, h4, h5 {
-	font-size: 1em;
-	margin-left: 2em;
+p,
+ul,
+h4,
+h5 {
+  font-size: 1em;
+  margin-left: 2em;
 }
 p::first-line {
-	color: #EED18D;
+  color: #eed18d;
 }
 p::first-letter {
-	color: #E9BC4D;
+  color: #e9bc4d;
 }
 p:first-of-type::first-letter {
-	color: #F9B245;
+  color: #f9b245;
 }
 div p:first-of-type::first-letter {
-	color: #fefb55;
+  color: #fefb55;
 }
